@@ -1,12 +1,12 @@
 "use client";
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon } from "@chakra-ui/icons";
 import { Box, Flex, Heading, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
-import { FC, useCallback, useEffect, useState } from "react";
+import { FC, useCallback, useState } from "react";
 import { ISearch, ValueElement } from "@/component/result-search/search.interface";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { useResultsSearch, usePagination, IPagination } from "./resultsSearch.hooks";
+import { useResultsSearch, usePagination, IPagination, useResultsSearchEffect } from "./resultsSearch.hooks";
 
 interface ResultSearchProps {
     query: string;
@@ -18,10 +18,10 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
     const [pagination, setPagination] = useState(usePagination(1, 11));
     let total = dataSearch?.webPages?.totalEstimatedMatches ?? 0;
 
-    useResultsSearch(query.toString(), 0, true, { dataSearch, setDataSearch })
+    useResultsSearchEffect(searchQuery, 0, { dataSearch, setDataSearch })
 
     const SetData = (value: number, total: number, pagination: IPagination) => {
-        useResultsSearch(query.toString(), value, false, { dataSearch, setDataSearch })
+        useResultsSearch(searchQuery, value, { dataSearch, setDataSearch })
         setPagination(usePagination(value, total, pagination.paginations, pagination.current));
     }
 
@@ -33,7 +33,14 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
         []
     )
 
-    const handleInputChange = (event: any) => {
+    const onkeyEnter = (event: any) => {
+        if (event.keyCode === 13) {
+            location.href = '';
+            location.href = `/search/${searchQuery}`;
+        }
+    }
+
+    const onChangeForm = (event: any) => {
         setSearchQuery(event.target.value);
     };
 
@@ -42,17 +49,21 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
             {query ? (
                 <Box w="100%" h="100%" bgGradient="linear(to-t, green.200, pink.500)" bgSize={"cover"} opacity={"0.9"}>
                     <Flex direction={"column"} height={"100vh"} alignItems={"baseline"} justifyContent={"left"} pt="0rem">
-                        <Flex background={"white"} p={8} position={"relative"} width={"100%"} alignItems={"center"}>
-                            <Box mr={"1rem"}>
-                                <Image priority src="/img/logo-bing.png" height={24} width={24} alt="bing" />
+                        <Flex background={"white"} p={{ base: '2', md: '4', xl: '8' }} position={"relative"} width={"100%"} alignItems={"center"}>
+                            <Box mr={"1rem"} width={"24px"} height={"24px"} position={"relative"}>
+                                <Image src="/img/logo-bing.png" fill alt="bing" sizes='24px' />
                             </Box>
-                            <InputGroup mt={3} width={"50%"}>
+                            <InputGroup mt={3} width={{
+                                base: '100%',
+                                md: '50%',
+                                xl: '50%',
+                            }} >
                                 <InputLeftElement pointerEvents="none" fontSize="1.5rem" ><SearchIcon color="gray.400" /></InputLeftElement>
-                                <Input type="search" placeholder="Ask me anything" size="lg" value={searchQuery} onChange={handleInputChange} />
+                                <Input type="search" placeholder="Ask me anything" size="lg" value={searchQuery} onChange={onChangeForm} onKeyDown={(e) => onkeyEnter(e)} />
                             </InputGroup>
                         </Flex>
 
-                        <Flex direction={"column"} height={"100vh"} bgColor="white" p={8} pl={"5rem"} position={"relative"} width={"100%"} borderTop="1px" borderColor="gray.300">
+                        <Flex direction={"column"} height={"100vh"} bgColor="white" p={{ base: '2', md: '4', xl: '8' }} pl={{ base: '1rem', md: '3rem', xl: '5rem' }} position={"relative"} width={"100%"} borderTop="1px" borderColor="gray.300">
 
                             {!!dataSearch?.webPages && !!dataSearch?.webPages?.value?.length && (
                                 <>
@@ -75,7 +86,13 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
                                     <Flex alignItems={"center"} marginBottom={"2rem"}>
                                         <ChevronLeftIcon color="gray.600" boxSize={6} cursor={"pointer"}
                                             onClick={(e) => handleChangePagination(e, pagination.current > 1 ? pagination.current - 1 : pagination.current, total, pagination)} />
-                                        <Flex justifyContent={"space-evenly"} width={"30%"}>
+                                        <Flex justifyContent={"space-evenly"}
+                                            width={{
+                                                base: '80%',
+                                                md: '50%',
+                                                xl: '30%',
+                                            }}
+                                        >
                                             {!!pagination?.paginations?.length && pagination.paginations.map((value: number, index: number) => (
                                                 <Box key={index} width={"2rem"} textAlign={"center"}
                                                     _hover={{

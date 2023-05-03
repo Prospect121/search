@@ -7,25 +7,26 @@ export interface IPagination {
   paginations: number[];
   current: number;
 }
-export const useResultsSearch = (query: string, offset: number = 0, init: boolean, { dataSearch, setDataSearch }: any): ISearch => {
+const search = async (query: string, offset: number = 0, { dataSearch, setDataSearch }: any) => {
   const paramsDefault = `?count=${20}&offset=${offset}&q=${query}&responseFilter=Webpages&setLang=en`;
-  const search = async () => {
-    try {
-      const res: AxiosResponse<any> = await bingSearch.get(`/v7.0/search${paramsDefault}`);
-      setDataSearch(res.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  useEffect(() => {
-    if (init) search();
-  }, []);
-  if (init) return dataSearch;
-
-  if (!init) {
-    search();
+  try {
+    const res: AxiosResponse<any> = await bingSearch.get(`/v7.0/search${paramsDefault}`);
+    setDataSearch(res.data);
+  } catch (error) {
+    console.error(error);
   }
+};
+
+export const useResultsSearch = (query: string, offset: number = 0, { dataSearch, setDataSearch }: any): ISearch => {
+  search(query, offset, { dataSearch, setDataSearch });
+
+  return dataSearch;
+};
+
+export const useResultsSearchEffect = (query: string, offset: number = 0, { dataSearch, setDataSearch }: any): ISearch => {
+  useEffect(() => {
+    search(query, offset, { dataSearch, setDataSearch });
+  }, []);
 
   return dataSearch;
 };
