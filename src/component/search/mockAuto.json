@@ -1,0 +1,61 @@
+{
+    "_type": "Suggestions",
+    "queryContext": {
+        "originalQuery": "sail"
+    },
+    "suggestionGroups": [
+        {
+            "name": "Web",
+            "searchSuggestions": [
+                {
+                    "url": "https://www.bing.com/search?q=sailor+moon&FORM=USBAPI",
+                    "displayText": "sailor moon",
+                    "query": "sailor moon",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailor&FORM=USBAPI",
+                    "displayText": "sailor",
+                    "query": "sailor",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailpoint&FORM=USBAPI",
+                    "displayText": "sailpoint",
+                    "query": "sailpoint",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=saildrone&FORM=USBAPI",
+                    "displayText": "saildrone",
+                    "query": "saildrone",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailboats+for+sale&FORM=USBAPI",
+                    "displayText": "sailboats for sale",
+                    "query": "sailboats for sale",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailrite&FORM=USBAPI",
+                    "displayText": "sailrite",
+                    "query": "sailrite",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailfish&FORM=USBAPI",
+                    "displayText": "sailfish",
+                    "query": "sailfish",
+                    "searchKind": "WebSearch"
+                },
+                {
+                    "url": "https://www.bing.com/search?q=sailor+abhilash&FORM=USBAPI",
+                    "displayText": "sailor abhilash",
+                    "query": "sailor abhilash",
+                    "searchKind": "WebSearch"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+{
+    "_type": "SearchResponse",
+    "queryContext": {
+        "originalQuery": "{{keyword}}"
+    },
+    "webPages": {
+        "webSearchUrl": "https://www.bing.com/search?q=%7b%7bkeyword%7d%7d",
+        "totalEstimatedMatches": 4380000000,
+        "value": [
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0",
+                "name": "Keyword Tool ⚠️ Google Keyword Planner【Search FREE】",
+                "url": "https://keywordtool.io/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://keywordtool.io",
+                "snippet": "Here are a few reasons why: Free version of Keyword Tool generates up to 750+ long-tail keyword suggestions for every search term. Unlike Keyword Planner or other tools, Keyword Tool is extremely reliable as it works 99.99% of the time. You can use Keyword Tool absolutely for free, even without creating an account.",
+                "dateLastCrawled": "2023-05-02T03:06:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1",
+                "name": "Keyword Research [Beginner's Guide to SEO] - Moz",
+                "url": "https://moz.com/beginners-guide-to-seo/keyword-research",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://moz.com/beginners-guide-to-seo/keyword-research",
+                "snippet": "However, Keyword Planner does restrict search volume data by lumping keywords together into large search volume range buckets. To learn more, check out Google Keyword Planner’s Dirty Secrets. Google Trends - Google’s keyword trend tool is great for finding seasonal keyword fluctuations. For example, “funny halloween costume ideas” will ...",
+                "dateLastCrawled": "2023-05-01T19:17:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2",
+                "name": "Find Your Campaign Keywords with Keyword Planner - Google Ads",
+                "url": "https://ads.google.com/intl/en_us/home/tools/keyword-planner/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://ads.google.com/intl/en_us/home/tools/keyword-planner",
+                "snippet": "Once you open Keyword Planner, you can create your keyword plan by searching for new keywords, clicking Discover new keywords, or uploading existing keywords. Understand your keyword forecast Your plan forecast shows you how many conversions, clicks, or impressions you’re likely to get for your keywords based on your spend. ...",
+                "dateLastCrawled": "2023-05-02T05:17:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3",
+                "name": "What is a keyword? • SEO for beginners • Yoast",
+                "url": "https://yoast.com/what-is-a-keyword/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://yoast.com/what-is-a-keyword",
+                "snippet": "A keyword, or a focus keyword as some call it, is a word that describes the content on your page or post best. It’s the search term that you want to rank for with a certain page. So when people search for that keyword or phrase in Google or other search engines, they should find that page on your website. Let’s say you’ve got a website ...",
+                "dateLastCrawled": "2023-05-01T21:05:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4",
+                "name": "What is Keyword Research & How Do I Get Started? - Moz",
+                "url": "https://moz.com/learn/seo/what-is-keyword-research",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://moz.com/learn/seo/what-is-keyword-research",
+                "snippet": "Keyword research has adapted over time, but modern keyword research prioritizes search intent, i.e. the primary goal a user has when searching a keyword in a search engine. Sophisticated keyword research involves organizing keywords by user journey and/or sales funnel stages. Winning keyword research enables users to find exactly what they need ...",
+                "dateLastCrawled": "2023-05-01T20:20:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5",
+                "name": "Keyword Planner Alternative #1 FREE ᐈ SEO, Google Ads PPC",
+                "url": "https://keywordtool.io/google",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://keywordtool.io/google",
+                "snippet": "On the other hand, Keyword Tool is a free alternative to Google Keyword Planner for search engine optimization (SEO). To use Keyword Tool, you do not need to create an account or pay money. Simply type in a word in the search box of Keyword Tool, press \"Enter\" and the tool will immediately pull hundreds or even thousands of great long tail ...",
+                "dateLastCrawled": "2023-05-01T06:15:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.6",
+                "name": "Free Keyword Research Tool from Wordtracker",
+                "url": "https://www.wordtracker.com/#!",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.wordtracker.com",
+                "snippet": "The Google keyword research tool is the 'Keyword Planner'. It's designed for Adwords and not SEO, so competition and other metrics are given only for paid search. Numbers are scaled from a sample, and similar keywords are grouped together. Instead, use a tool built for keyword research. Actual (not grouped) keywords. Actual (not banded) results.",
+                "dateLastCrawled": "2023-05-01T06:03:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.7",
+                "name": "Best SEO keyword research tools of 2023 | TechRadar",
+                "url": "https://www.techradar.com/best/keyword-research-tools",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.techradar.com/best/keyword-research-tools",
+                "snippet": "Keyword Tool is a strong entry into the keyword research category for SEO optimization. It functions to analyze data related to keywords across not only the most popular search engine, Google, but ...",
+                "dateLastCrawled": "2023-04-30T09:18:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.8",
+                "name": "Keyword Planner Tool - Microsoft Advertising",
+                "url": "https://about.ads.microsoft.com/en-us/solutions/tools/keyword-planner",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://about.ads.microsoft.com/en-us/solutions/tools/keyword-planner",
+                "snippet": "Start using the Keyword Planner. Begin using the Microsoft Advertising Keyword Planner tool now to research and plan your campaigns. Then, when you're ready, a Microsoft Advertising expert is available to help you do more with your keywords and copy to boost your ad performance. The advice is free, and the appointment is quick and easy to set up.",
+                "dateLastCrawled": "2023-05-02T08:51:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.9",
+                "name": "Free Keyword Research Tool: Keyword Explorer - Moz",
+                "url": "https://moz.com/explorer",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://moz.com/explorer",
+                "snippet": "Moz Keyword Explorer can help you perform a gap analysis to determine where you can improve specific rankings relative to your competitors. Filter results by ranking position, search volume, or Moz’s proprietary Keyword Difficulty score, which shows how easy (or hard) it is to rank on each SERP.",
+                "dateLastCrawled": "2023-05-01T10:05:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.10",
+                "name": "Keyword Research for SEO: The Definitive Guide (2022 Update) - Backlinko",
+                "url": "https://backlinko.com/keyword-research",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://backlinko.com/keyword-research",
+                "snippet": "GSC Keyword Research. The Google Search Console is a goldmine of keyword ideas. Here’s how it works: First, login to your GSC account and head over to the “Performance Report”. This report shows you the terms that bring in the most clicks from Google search. Then, sort the list by “Impressions”.",
+                "dateLastCrawled": "2023-05-01T20:27:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.11",
+                "name": "Use Keyword Planner - Google Ads Help",
+                "url": "https://support.google.com/google-ads/answer/7337243?hl=en",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://support.google.com/google-ads/answer/7337243",
+                "snippet": "Keyword Planner will try to organize keywords into your campaigns, or you can manually organize them yourself. Click Auto-organize Keywords. After clicking “Auto-organize keywords”, you’ll see a list of ad groups with keyword suggestions. We’ll try to match them with the most relevant ad groups in your highest performing campaigns.",
+                "dateLastCrawled": "2023-05-01T09:22:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.12",
+                "name": "Key word Definition & Meaning - Merriam-Webster",
+                "url": "https://www.merriam-webster.com/dictionary/key%20word",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.merriam-webster.com/dictionary/key word",
+                "snippet": "key word: [noun] a word that is a key: such as. a significant word from a title or document used especially as an index to content. a word exemplifying the meaning or value of a letter or symbol.",
+                "dateLastCrawled": "2023-05-02T00:12:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.13",
+                "name": "Keyword Definition & Meaning | Dictionary.com",
+                "url": "https://www.dictionary.com/browse/keyword",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.dictionary.com/browse/keyword",
+                "snippet": "Keyword definition, a word that serves as a key, as to the meaning of another word, a sentence, passage, or the like. See more.",
+                "dateLastCrawled": "2023-05-01T17:26:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.14",
+                "name": "Keyword Planner - Chrome Web Store - Google Chrome",
+                "url": "https://chrome.google.com/webstore/detail/keyword-planner/ohffmmbmebhcljgcdijjlepjaoladfag",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://chrome.google.com/webstore/detail/keyword-planner/ohffmmbmebhcljgcdijjlepjaoladfag",
+                "snippet": "Install the chrome extension 2. Go to any of the supported websites - Google™ YouTube™, Amazon™, eBay™ or Etsy™ and perform a search 3. Inside the text box, on the right hand side you will see a new button with the Keyword Planner logo. 4. Click the button, and you will see multiple lists of keywords show up right underneath the ...",
+                "dateLastCrawled": "2023-05-02T02:13:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.15",
+                "name": "KEYWORD | English meaning - Cambridge Dictionary",
+                "url": "https://dictionary.cambridge.org/dictionary/english/keyword",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://dictionary.cambridge.org/dictionary/english/keyword",
+                "snippet": "keyword definition: 1. a word that you type into a computer so that the computer will find information that contains…. Learn more.",
+                "dateLastCrawled": "2023-05-01T16:55:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.16",
+                "name": "What is A Keyword? | Webopedia",
+                "url": "https://www.webopedia.com/definitions/keyword/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.webopedia.com/definitions/keyword",
+                "snippet": "Keyword has several different meanings based on the context in which it’s used. In text editing and database management systems, a keyword is an index entry that identifies a specific record or document.. Computer programming keyword. A keyword is a word that is reserved by a program because that word has a special meaning, typically a commands or parameters.",
+                "dateLastCrawled": "2023-05-02T00:20:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.17",
+                "name": "Keyword Research | SEO Resources For All Skill Levels - Moz",
+                "url": "https://moz.com/learn/seo/keyword-research",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://moz.com/learn/seo/keyword-research",
+                "snippet": "Keywords are the words and phrases that people type into search engines in order to find what they're looking for, and the ideas and topics defining what a piece of content is all about. Keyword research is a foundational part of your SEO strategy enabling you to identify the right words and phrases to target. From this foundation you can better understand your online competitors, improve your ...",
+                "dateLastCrawled": "2023-05-01T12:25:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.18",
+                "name": "How to do Keyword Research for SEO and Beyond | Sprout Social",
+                "url": "https://sproutsocial.com/insights/how-to-do-keyword-research/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://sproutsocial.com/insights/how-to-do-keyword-research",
+                "snippet": "1: Keywordtool.io – All-round keyword research. Keywordtool.io is one of the best alternatives to the Google Keyword Planner. It comes with robust search features that neatly sort out your searches according to channel. This makes it the perfect all-round keyword research tool–whether it’s for SEO, PPC, eCommerce optimization or social media.",
+                "dateLastCrawled": "2023-05-02T06:21:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.19",
+                "name": "YouTube TAG【#】Generator Keyword Tool【⚠️ FREE】",
+                "url": "https://keywordtool.io/youtube",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://keywordtool.io/youtube",
+                "snippet": "Keyword Tool is an extremely useful instrument for YouTube tag generation. By pulling relevant keywords from YouTube's autocomplete, Keyword Tool will help generate over 750 YouTube tags for your video within seconds. Just enter the topic of a video into the search box to pull the list of keywords that can be used as tags.",
+                "dateLastCrawled": "2023-05-01T13:16:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.20",
+                "name": "Keywords Everywhere - Keyword Tool - Chrome Web Store - Google Chrome",
+                "url": "https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://chrome.google.com/webstore/detail/keywords-everywhere-keywo/...",
+                "snippet": "Keyword search volume, cpc and competition for 15+ websites like Google™ Search Console, YouTube™, Amazon™ & more. Keywords Everywhere is a freemium chrome extension that helps you with Keyword Research. It shows you monthly search volume, CPC, competition & 12 month trend data on 10+ websites. It also provides traffic, link metrics and ...",
+                "dateLastCrawled": "2023-04-30T16:07:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.21",
+                "name": "Keyword Tool For Amazon【FREE】⚠️ Amazon SEO Keywords",
+                "url": "https://keywordtool.io/amazon",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://keywordtool.io/amazon",
+                "snippet": "The answer is - Keyword Tool. Keyword Tool uses Amazon autocomplete (or search suggestion feature) to generate a large number of relevant keywords that can be used for Amazon listing keyword optimization or any other purpose. Whether you are an Amazon affiliate or Amazon FBA seller, Keyword Tool can help buyers find your products easier.",
+                "dateLastCrawled": "2023-05-01T01:23:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.22",
+                "name": "What Is a Keyword? | Keyword Definition | Mailchimp",
+                "url": "https://mailchimp.com/marketing-glossary/keyword/",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://mailchimp.com/marketing-glossary/keyword",
+                "snippet": "The keyword is the cornerstone of search engine optimization (SEO). Stand out on search engines Learn how a strong SEO strategy can help your online business by gaining knowledge about search engines, websites, crawling, indexing, and more.",
+                "dateLastCrawled": "2023-05-01T10:09:00.0000000Z",
+                "language": "en",
+                "isNavigational": false
+            }
+        ]
+    },
+    "rankingResponse": {
+        "mainline": {
+            "items": [
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 0,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 1,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 2,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 3,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 4,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 5,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 6,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.6"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 7,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.7"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 8,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.8"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 9,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.9"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 10,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.10"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 11,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.11"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 12,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.12"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 13,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.13"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 14,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.14"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 15,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.15"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 16,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.16"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 17,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.17"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 18,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.18"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 19,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.19"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 20,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.20"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 21,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.21"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 22,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.22"
+                    }
+                }
+            ]
+        }
+    }
+}
