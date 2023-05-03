@@ -1,13 +1,13 @@
 import { bingSearch } from "@/pages/api/bing.api";
 import { ISearch } from "@/component/result-search/search.interface";
 import { AxiosResponse } from "axios";
+import { useEffect } from "react";
 
 export interface IPagination {
   paginations: number[];
   current: number;
 }
-
-export const useResultsSearch = (query: string, offset: number = 0, { dataSearch, setDataSearch }: any): ISearch => {
+export const useResultsSearch = (query: string, offset: number = 0, init: boolean, { dataSearch, setDataSearch }: any): ISearch => {
   const paramsDefault = `?count=${20}&offset=${offset}&q=${query}&responseFilter=Webpages&setLang=en`;
   const search = async () => {
     try {
@@ -17,7 +17,16 @@ export const useResultsSearch = (query: string, offset: number = 0, { dataSearch
       console.error(error);
     }
   };
-  search();
+
+  useEffect(() => {
+    if (init) search();
+  }, []);
+  if (init) return dataSearch;
+
+  if (!init) {
+    search();
+  }
+
   return dataSearch;
 };
 

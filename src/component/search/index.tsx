@@ -28,7 +28,7 @@ export default function SearchComponent() {
                             <Image priority src="/img/logo-bing.png" height={24} width={24} alt="bing" />
                         </Box>
                         <InputGroup mt={3} width={"90%"}>
-                            <InputLeftElement pointerEvents="none" children={<SearchIcon color="gray.400" />} fontSize="1.5rem" />
+                            <InputLeftElement pointerEvents="none" fontSize="1.5rem"><SearchIcon color="gray.400" /></InputLeftElement>
                             <Input type="search" placeholder="Ask me anything" size="lg" value={searchQuery} onChange={onChangeForm} onKeyDown={(e) => something(e)} />
                         </InputGroup>
                     </Flex>

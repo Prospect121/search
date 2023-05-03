@@ -20,13 +20,17 @@ export const useFormSearch = ({ searchQuery, setSearchQuery }: any, { dataSearch
     [searchQuery]
   );
 
+  const CallUseResultAuto = (query: string, { dataSearch, setDataSearch }: any) => {
+    useResultsAuto(query, { dataSearch, setDataSearch });
+  };
+
   useEffect(() => {
     changeValue$
       .asObservable()
       .pipe(debounceTime(1000), distinctUntilChanged())
       .subscribe((value) => {
         if (!!value && value.length >= 3) {
-          useResultsAuto(value, { dataSearch, setDataSearch });
+          CallUseResultAuto(value, { dataSearch, setDataSearch });
         }
       });
   }, []);

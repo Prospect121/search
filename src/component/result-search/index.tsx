@@ -18,18 +18,21 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
     const [pagination, setPagination] = useState(usePagination(1, 11));
     let total = dataSearch?.webPages?.totalEstimatedMatches ?? 0;
 
-    useEffect(() => {
-        useResultsSearch(query.toString(), 0, { dataSearch, setDataSearch })
-    }, []);
+    useResultsSearch(query.toString(), 0, true, { dataSearch, setDataSearch })
+
+    const SetData = (value: number, total: number, pagination: IPagination) => {
+        useResultsSearch(query.toString(), value, false, { dataSearch, setDataSearch })
+        setPagination(usePagination(value, total, pagination.paginations, pagination.current));
+    }
 
     const handleChangePagination = useCallback(
         (e: any, value: number, total: number, pagination: IPagination) => {
             e.preventDefault()
-            setPagination(usePagination(value, total, pagination.paginations, pagination.current));
-            useResultsSearch(query.toString(), value, { dataSearch, setDataSearch })
+            SetData(value, total, pagination);
         },
         []
     )
+
     const handleInputChange = (event: any) => {
         setSearchQuery(event.target.value);
     };
@@ -44,7 +47,7 @@ export const ResultSearch: FC<ResultSearchProps> = ({ query }) => {
                                 <Image priority src="/img/logo-bing.png" height={24} width={24} alt="bing" />
                             </Box>
                             <InputGroup mt={3} width={"50%"}>
-                                <InputLeftElement pointerEvents="none" children={<SearchIcon color="gray.400" />} fontSize="1.5rem" />
+                                <InputLeftElement pointerEvents="none" fontSize="1.5rem" ><SearchIcon color="gray.400" /></InputLeftElement>
                                 <Input type="search" placeholder="Ask me anything" size="lg" value={searchQuery} onChange={handleInputChange} />
                             </InputGroup>
                         </Flex>
