@@ -1,47 +1,14 @@
 import { baseUrlBgImg, bgImg, bingSearch } from "@/pages/api/bing.api";
 import { AxiosResponse } from "axios";
 import { useCallback, useEffect, useState } from "react";
-import { BehaviorSubject, Observable, debounceTime } from "rxjs";
-import { distinctUntilChanged } from "rxjs/operators";
 import { ISearchAuto } from "./search-auto.interface";
+import { debounce } from "lodash";
 
 export interface FormSearchExit {
   onChangeForm: (event: any) => void;
-  changeValue$: Observable<any>;
 }
-const changeValue$ = new BehaviorSubject<string>("");
 
-export const useFormSearch = ({ searchQuery, setSearchQuery }: any, { dataSearch, setDataSearch }: any): FormSearchExit => {
-  const onChangeForm = useCallback(
-    (event: any) => {
-      setSearchQuery(event.target.value);
-      changeValue$.next(event.target.value);
-    },
-    [searchQuery]
-  );
-
-  const CallUseResultAuto = (query: string, { dataSearch, setDataSearch }: any) => {
-    useResultsAuto(query, { dataSearch, setDataSearch });
-  };
-
-  useEffect(() => {
-    changeValue$
-      .asObservable()
-      .pipe(debounceTime(1000), distinctUntilChanged())
-      .subscribe((value) => {
-        if (!!value && value.length >= 3) {
-          CallUseResultAuto(value, { dataSearch, setDataSearch });
-        }
-      });
-  }, []);
-
-  return {
-    onChangeForm,
-    changeValue$: changeValue$.asObservable(),
-  };
-};
-
-export const useResultsAuto = (query: string, { dataSearch, setDataSearch }: any): ISearchAuto => {
+export const useResultsAuto = debounce((query: string, { dataSearch, setDataSearch }: any): ISearchAuto => {
   let paramsDefault = `?mkt=en-US&q=${query}`;
 
   const search = async () => {
@@ -55,6 +22,24 @@ export const useResultsAuto = (query: string, { dataSearch, setDataSearch }: any
   search();
 
   return dataSearch;
+}, 500);
+
+export const useFormSearch = ({ searchQuery, setSearchQuery }: any, { dataSearch, setDataSearch }: any): FormSearchExit => {
+  const onChangeForm = useCallback(
+    (event: any) => {
+      setSearchQuery(event.target.value);
+      CalluseResultsAuto(event.target.value);
+    },
+    [searchQuery]
+  );
+
+  const CalluseResultsAuto = (value: string) => {
+    useResultsAuto(value, { dataSearch, setDataSearch });
+  };
+
+  return {
+    onChangeForm,
+  };
 };
 
 export const useBgImg = (): string => {

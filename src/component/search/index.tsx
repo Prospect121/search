@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useFormSearch, useBgImg } from "./formSearch.hooks";
 import Link from "next/link";
 import { ISearchAuto, SearchSuggestion } from "./search-auto.interface";
-import { redirect } from 'next/navigation';
+import { useRouter } from "next/router";
 
 export default function SearchComponent() {
     const imgUrl = useBgImg();
@@ -15,9 +15,10 @@ export default function SearchComponent() {
 
     const onkeyEnter = (event: any) => {
         if (event.keyCode === 13) {
-            location.href = `/search/${searchQuery}`
+            router.push(`/search/${searchQuery}`);
         }
     }
+    const router = useRouter();
 
     return (
         <>
